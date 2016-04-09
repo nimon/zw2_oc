@@ -1080,10 +1080,12 @@
 		reg = <0 4>;
 		compatible = "qcom,msm-cpufreq";
 		qcom,cpufreq-table =
+			<  284000 >,
 			<  300000 >,
 			<  384000 >,
 			<  600000 >,
-			<  787200 >;
+			<  787200 >,
+			<  998400 >;
 	};
 
 	qcom,ocmem@fdd00000 {
